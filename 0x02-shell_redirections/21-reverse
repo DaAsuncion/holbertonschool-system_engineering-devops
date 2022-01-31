@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${r_string}
+echo "Reverse" | rev
