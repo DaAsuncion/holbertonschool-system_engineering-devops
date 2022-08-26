@@ -46,7 +46,7 @@ frontend web-http
         default_backend web-backend
 backend web-backend
         balance roundrobin
-        server 4384-web-02 35.175.196.152:80 check
-        server 4384-web-01 34.201.143.161:80 check
+        server 4430-web-02 18.205.22.147:80 check
+        server 4430-web-01 54.146.168.143:80 check
 backend letsencrypt-backend
         server letsencrypt 127.0.0.1:8888
