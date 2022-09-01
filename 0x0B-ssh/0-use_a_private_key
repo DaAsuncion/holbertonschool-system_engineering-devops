@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# My Holberton server
+ssh -i ~/.ssh/school ubuntu@54.146.168.143
